@@ -1,0 +1,46 @@
+.card {
+  width: 100%;
+  height: 40rem;
+  object-fit: cover;
+  background-repeat: no-repeat;
+
+  > div {
+    width: 100%;
+    height: 100%;
+
+    color: var(--white);
+    background-color: #333333c9;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.85rem;
+
+    h3 {
+      font-weight: 500;
+      font-size: 1.85rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      width: 50%;
+    }
+
+    a {
+      color: var(--white);
+      background: var(--green);
+
+      border-radius: 1.25rem;
+      padding: 0.45rem 2rem;
+      
+      transition: 0.3s;
+      
+      &:hover {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      }
+    }
+  }
+}

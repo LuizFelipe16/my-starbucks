@@ -4,7 +4,7 @@ import { Footer } from '../components/Footer';
 import { About } from '../components/Sessions/About';
 import { Welcome } from '../components/Sessions/Welcome';
 
-function Page() {
+function Home() {
   return (
     <>
       <Head><title>Home | Starbucks</title></Head>
@@ -15,4 +15,4 @@ function Page() {
   );
 }
 
-export default Page;
+export default Home;

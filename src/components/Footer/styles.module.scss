@@ -61,6 +61,10 @@
     align-items: center;
     gap: 1rem;
 
+    p:last-child {
+      font-size: 0.9rem;
+    }
+
     p {
       color: var(--black);
     }

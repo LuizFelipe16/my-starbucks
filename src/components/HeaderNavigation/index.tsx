@@ -6,7 +6,7 @@ const HeaderNavigation = () => (
 
     <a href="#">HOME</a>
     <a href="#">MENU</a>
-    <a href="#">CONTATO</a>
+    <a href="#">IMPACTO SOCIAL</a>
   </header>
 );
 
