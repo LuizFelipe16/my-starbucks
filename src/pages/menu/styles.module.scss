@@ -12,6 +12,24 @@
 
   div.header_texts {
     text-align: center;
+
+    a {
+      color: var(--green);
+      text-decoration: underline;
+      font-weight: 600;
+
+      transition: 0.3s;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    p {
+      margin-top: 1.4rem;
+      font-size: 0.9rem;
+      font-weight: 300;
+    }
   }
 
   div.options {
@@ -28,14 +46,14 @@
       }
   
       min-width: 16.2rem;
-      min-height: 15.2rem;
+      min-height: 13.2rem;
       text-align: center;
 
       color: var(--white);
       background: var(--green);
 
       border-radius: 0.5rem;
-      padding: 1.25rem 2.45rem;
+      padding: 1.25rem 1.75rem;
 
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
@@ -44,7 +62,7 @@
       align-items: center;
       justify-content: space-around;
 
-      transition: 0.4s;
+      transition: 0.3s;
 
       &:hover {
         transform: scale(1.15);
@@ -67,6 +85,41 @@
         &:hover {
           filter: brightness(80%);
         }
+      }
+    }
+  }
+
+  .coffee_singa {
+    width: 38rem;
+    position: absolute;
+    right: -300px;
+
+    transform: rotate(-20deg);
+  }
+
+  div.coffee_choco {
+    background-color: var(--green);
+    border-radius: 10rem;
+    width: 15rem;
+    height: 15rem;
+
+    position: absolute;
+    left: -80px;
+    bottom: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img.coffee_choco {
+      width: 27rem;
+      object-fit: cover;
+      transform: rotate(20deg);
+
+      transition: 0.3s;
+      
+      &:hover {
+        transform: rotate(20deg) scale(1.1);
       }
     }
   }
