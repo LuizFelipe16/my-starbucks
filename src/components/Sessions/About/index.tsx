@@ -2,7 +2,7 @@ import styles from './styles.module.scss';
 
 export function About() {
   return (
-    <section className={styles.about}>
+    <section id="about" className={styles.about}>
       <h2>
         Conforme abrimos nossas lojas, permanecemos no
         compromisso com a saúde e bem-estar <br /> de nossos partners e consumidores.

@@ -1,4 +1,5 @@
 import { HeaderNavigation } from "../../HeaderNavigation";
+import { scrollAnimationToSessionPageById } from "../../../utils/scrollAnimationToSessionPageById";
 
 import styles from "./welcome.module.scss";
 
@@ -17,7 +18,7 @@ export function Welcome() {
           omnis molestiae error laborum eos, laudantium eaque qui odio aut
           quam quis aperiam debitis? Quos fugiat dignissimos iusto omnis ipsa?
         </p>
-        <button>Saber mais</button>
+        <button type="button" onClick={() => scrollAnimationToSessionPageById("about")}>Saber mais</button>
       </div>
 
       <div className={styles.image}>
