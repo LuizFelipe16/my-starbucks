@@ -1,0 +1,60 @@
+.about {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  h2 {
+    text-align: center;
+    color: var(--black);
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 2;
+  }
+
+  .content {
+    height: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+    div {
+      background-color: var(--green);
+      border-radius: 10rem 4rem 9rem 10rem;
+      width: 20rem;
+      height: 20rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img.coffee {
+        width: 18rem;
+        object-fit: cover;
+        animation: animate_coffee 4s infinite;
+      }
+
+      @keyframes animate_coffee {
+        0% { transform: rotate(0deg) }
+        25% { transform: rotate(30deg) }
+        50% { transform: rotate(0deg) }
+        75% { transform: rotate(-30deg) }
+        100% { transform: rotate(0deg) }
+      }
+    }
+
+    p {
+      width: 28rem;
+      font-size: 1rem;
+      font-weight: 400;
+      text-align: center;
+      line-height: 2;
+    }
+  }
+}
