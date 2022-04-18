@@ -9,15 +9,15 @@ export function Welcome() {
 
       <div className={styles.content}>
         <h1>
-          It's not just Coffee
-          <br /> It's <strong>Starbucks</strong>
+          Não é só Café
+          <br /> É <strong>Starbucks</strong>
         </h1>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit facere
           omnis molestiae error laborum eos, laudantium eaque qui odio aut
           quam quis aperiam debitis? Quos fugiat dignissimos iusto omnis ipsa?
         </p>
-        <button>Learn More</button>
+        <button>Saber mais</button>
       </div>
 
       <div className={styles.image}>

@@ -1,0 +1,40 @@
+.active_link {
+  a {
+    color: var(--green) !important;
+  }
+
+  hr {
+    width: 100% !important;
+  }
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+
+  a {
+    color: var(--black);
+    font: 600 1rem 'Poppins', sans-serif;
+
+    transition: 0.2s;
+
+    &:hover {
+      color: var(--green);
+    }
+
+    &:hover + hr {
+      width: 100%;
+    }
+  }
+
+  hr {
+    width: 0;
+    height: 2px;
+    border: none;
+    border-radius: 0.10rem;
+    background-color: var(--green);
+
+    transition: 0.3s;
+  }
+}

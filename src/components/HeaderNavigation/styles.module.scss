@@ -6,29 +6,37 @@
   right: 0;
   top: 0;
 
+  padding: 0.25rem 3.35rem;
+
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 2rem;
-
-  a {
-    color: var(--black);
-    font: 600 1rem 'Poppins', sans-serif;
-
-    transition: 0.2s;
-
-    &:hover {
-      color: var(--green);
-    }
-  }
+  justify-content: space-between;
 
   .logo {
     width: 3rem;
     object-fit: cover;
+  }
 
-    position: absolute;
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
 
-    top: 20px;
-    left: 3rem;
+  > a {
+    border: 0.12rem solid var(--green);
+    color: var(--green);
+
+    padding: 0.35rem 1.85rem;
+    border-radius: 1.5rem;
+    font: 400 1rem 'Poppins', sans-serif;
+  
+    transition: 0.2s;
+  
+    &:hover {
+      background-color: var(--green);
+      color: var(--bg);
+    }
   }
 }

@@ -1,12 +1,18 @@
+import { NavItem } from './NavItem';
+
 import styles from './styles.module.scss';
 
 const HeaderNavigation = () => (
   <header className={styles.navigation}>
     <img className={styles.logo} src="/logo.png" alt="Logo Starbucks" />
 
-    <a href="#">HOME</a>
-    <a href="#">MENU</a>
-    <a href="#">IMPACTO SOCIAL</a>
+    <div>
+      <NavItem text="HOME" href="/" />
+      <NavItem text="MENU" href="/menu" />
+      <NavItem text="IMPACTO SOCIAL" href="/social" />
+    </div>
+
+    <a href="#">Entrar</a>
   </header>
 );
 
