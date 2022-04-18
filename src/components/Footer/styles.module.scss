@@ -37,6 +37,12 @@
       p {
         font-size: 0.9rem;
         color: var(--black);
+
+        transition: 0.2s;
+
+        &:hover {
+          color: #000;
+        }
       }
     }
   }

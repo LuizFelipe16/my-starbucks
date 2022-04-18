@@ -1,4 +1,5 @@
 import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
+import { ScrollTopButton } from '../ScrollTopButton';
 
 import styles from './styles.module.scss';
 
@@ -27,7 +28,7 @@ const Footer = () => (
       </div>
 
       <div>
-        <p>Voltar ao topo</p>
+        <ScrollTopButton />
       </div>
     </div>
 

@@ -1,0 +1,13 @@
+.scroll_top_button {
+  border: none;
+  background: none;
+
+  color: var(--black);
+  font-weight: 400;
+
+  transition: 0.2s;
+
+  &:hover {
+    color: var(--green);
+  }
+}
