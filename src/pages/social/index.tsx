@@ -1,6 +1,6 @@
 import Head from "next/head";
-import { CardSocial } from "../../components/CardSocial";
 
+import { CarouselSocial } from "../../components/CarouselSocial";
 import { Footer } from "../../components/Footer";
 import { HeaderNavigation } from "../../components/HeaderNavigation";
 
@@ -28,33 +28,7 @@ export default function Social() {
           </p>
         </div>
 
-        <CardSocial
-          title="Comunidade"
-          description={`
-            Como bons vizinhos, sempre que podemos, nos envolvemos em
-            esforços locais para unir as pessoas e criar uma
-            mudança positiva.
-          `}
-          banner="/community-banner.jpg"
-        />
-        <CardSocial
-          title="Meio Ambiente"
-          description={`
-            Estamos buscando formas de minimizar o impacto ambiental de
-            nossos produtos, lidar com as mudanças ambientais e inspirar
-            outros a fazerem o mesmo.
-          `}
-          banner="/sourcing-banner.jpg"
-        />
-        <CardSocial
-          title="Fornecimento Ético"
-          description={`
-            Estamos comprometidos em comprar e servir o café da mais alt
-            qualidade, cultivado de forma responsável e comercializado com ética
-            para ajudar a criar um futuro melhor para os produtores.
-          `}
-          banner="/environment-banner.jpg"
-        />
+        <CarouselSocial />
       </main>
 
       <Footer />
