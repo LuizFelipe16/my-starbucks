@@ -25,6 +25,10 @@ const Footer = () => (
         <p>Termos e condições do Starbucks Card</p>
         <p>Termos e condições do Starbucks Promoções</p>
       </div>
+
+      <div>
+        <p>Voltar ao topo</p>
+      </div>
     </div>
 
     <hr />

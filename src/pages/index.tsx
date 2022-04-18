@@ -7,7 +7,7 @@ import { Welcome } from '../components/Sessions/Welcome';
 function Page() {
   return (
     <>
-      <Head><title>Starbucks</title></Head>
+      <Head><title>Home | Starbucks</title></Head>
       <Welcome />
       <About />
       <Footer />

@@ -4,7 +4,7 @@ import styles from "./welcome.module.scss";
 
 export function Welcome() {
   return (
-    <div className={styles.welcome}>
+    <section className={styles.welcome}>
       <HeaderNavigation />
 
       <div className={styles.content}>
@@ -25,6 +25,6 @@ export function Welcome() {
           <img className={styles.frappuccino} src="/frappuccino.png" alt="Frappuccino for Starbucks" />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
