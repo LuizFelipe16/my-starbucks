@@ -41,3 +41,12 @@
     }
   }
 }
+
+@media (min-width: 100px) and (max-width: 560px) {
+  .social {
+
+    > h1 {
+      width: 90%;
+    }
+  }
+}

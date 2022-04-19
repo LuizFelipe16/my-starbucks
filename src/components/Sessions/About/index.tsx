@@ -14,7 +14,7 @@ export function About() {
         </div>
 
         <div className={styles.texts}>
-          <p>
+          <p className={styles.text}>
             Queridos clientes, partners e amigos, estamos acompanhando a situação atual do
             Brasil em relação ao COVID-19, focados na segurança e bem estar dos nossos
             partners (como chamamos os nossos colaboradores) e clientes.
