@@ -75,7 +75,7 @@ How to Install
 
 ```bash
 1. git clone
-2. cd starbucks-website
+2. cd my-starbucks
 ```
 
 - Install the dependencies and start:
