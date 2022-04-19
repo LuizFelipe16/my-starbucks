@@ -48,7 +48,7 @@ const Footer = () => (
 
       <p>Política de privacidade | Política de troca de produto | Termos de uso | Política de Cookies</p>
 
-      <p>2022 Luiz Felipe. Todos os direitos reservados.</p>
+      <p>2022 by Luiz Felipe.</p>
     </div>
   </footer>
 );
