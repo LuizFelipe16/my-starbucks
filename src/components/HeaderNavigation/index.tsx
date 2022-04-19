@@ -1,19 +1,34 @@
+import { useBreakpointValue } from "@chakra-ui/react";
 import { NavItem } from './NavItem';
+import { SidebarNav } from "./SidebarNav";
 
 import styles from './styles.module.scss';
 
-const HeaderNavigation = () => (
-  <header className={styles.navigation}>
-    <img className={styles.logo} src="/logo.png" alt="Logo Starbucks" />
+const HeaderNavigation = () => {
+  const isDrawerSidebar = useBreakpointValue({
+    base: true,
+    lg: false,
+  });
 
-    <div>
-      <NavItem text="HOME" href="/" />
-      <NavItem text="MENU" href="/menu" />
-      <NavItem text="IMPACTO SOCIAL" href="/social" />
-    </div>
+  if (!!isDrawerSidebar) {
+    return (
+      <SidebarNav />
+    );
+  }
 
-    <a href="#">Entrar</a>
-  </header>
-);
+  return (
+    <header className={styles.navigation}>
+      <img className={styles.logo} src="/logo.png" alt="Logo Starbucks" />
+
+      <div>
+        <NavItem text="HOME" href="/" />
+        <NavItem text="MENU" href="/menu" />
+        <NavItem text="IMPACTO SOCIAL" href="/social" />
+      </div>
+
+      <a href="#">Entrar</a>
+    </header>
+  )
+}
 
 export { HeaderNavigation };

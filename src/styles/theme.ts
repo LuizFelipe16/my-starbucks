@@ -5,6 +5,9 @@ export const theme = extendTheme({
     bg: {
       100: '#ddd',
     },
+    green: {
+      600: '#017143'
+    }
   },
   fonts: {
     heading: "Poppins",
