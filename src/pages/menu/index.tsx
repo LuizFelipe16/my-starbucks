@@ -18,6 +18,7 @@ export default function Menu() {
           <a
             href="https://manyplaces-p.s3-sa-east-1.amazonaws.com/starbucks/site/cardapio-sb-brasil.pdf"
             target="_blank"
+            rel="noreferrer noopener"
           >
             Clique aqui para acessar nosso Cardápio Digital
           </a>
@@ -30,6 +31,7 @@ export default function Menu() {
             <a
               href="https://manyplaces-p.s3-sa-east-1.amazonaws.com/starbucks/site/tabela_nutricional_bebidas.pdf"
               target="_blank"
+              rel="noreferrer noopener"
             >
               Abrir
             </a>
@@ -39,6 +41,7 @@ export default function Menu() {
             <a
               href="https://manyplaces-p.s3-sa-east-1.amazonaws.com/starbucks/site/Tabela_Alergenicos_Bebidas_2019.pdf"
               target="_blank"
+              rel="noreferrer noopener"
             >
               Abrir
             </a>
@@ -48,6 +51,7 @@ export default function Menu() {
             <a
               href="https://manyplaces-p.s3-sa-east-1.amazonaws.com/starbucks/site/tabela_nutricional_food.pdf"
               target="_blank"
+              rel="noreferrer noopener"
             >
               Abrir
             </a>
