@@ -3,13 +3,13 @@ import styles from './styles.module.scss';
 export function About() {
   return (
     <section id="about" className={styles.about}>
-      <h2>
+      <h2 data-aos="fade-down">
         Conforme abrimos nossas lojas, permanecemos no
         compromisso com a saúde e bem-estar de nossos partners e consumidores.
       </h2>
 
       <div className={styles.content}>
-        <div className={styles.image_coffee}>
+        <div data-aos="zoom-in-right" data-aos-duration="1500" className={styles.image_coffee}>
           <img className={styles.coffee} src="/coffee.png" alt="Coffee" />
         </div>
 

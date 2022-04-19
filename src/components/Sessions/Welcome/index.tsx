@@ -21,7 +21,7 @@ export function Welcome() {
         <button type="button" onClick={() => scrollAnimationToSessionPageById("about")}>Saber mais</button>
       </div>
 
-      <div className={styles.image}>
+      <div data-aos="fade-left" data-aos-duration="2000" className={styles.image}>
         <div className={styles.img}>
           <img className={styles.frappuccino} src="/frappuccino.png" alt="Frappuccino for Starbucks" />
         </div>

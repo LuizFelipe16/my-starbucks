@@ -13,7 +13,7 @@ export default function Menu() {
       <main className={styles.menu}>
         <HeaderNavigation />
 
-        <div className={styles.header_texts}>
+        <div data-aos="fade-down" className={styles.header_texts}>
           <h1>CARDÁPIO</h1>
           <a
             href="https://manyplaces-p.s3-sa-east-1.amazonaws.com/starbucks/site/cardapio-sb-brasil.pdf"
@@ -59,7 +59,7 @@ export default function Menu() {
         </div>
 
         <img className={styles.coffee_singa} src="/singapore.png" alt="Coffee" />
-        <div className={styles.coffee_choco}>
+        <div data-aos="zoom-in-right" data-aos-duration="2000" className={styles.coffee_choco}>
           <img className={styles.coffee_choco} src="/choco.png" alt="Coffee" />
         </div>
       </main>
