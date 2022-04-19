@@ -1,6 +1,6 @@
 .menu {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 
   color: var(--black);
 
@@ -14,6 +14,11 @@
 
   div.header_texts {
     text-align: center;
+
+    h1 {
+      font-size: 1.85rem;
+      font-weight: 500;
+    }
 
     a {
       color: var(--green);
@@ -91,7 +96,7 @@
     }
   }
 
-  .coffee_singa {
+  img.coffee_singa {
     width: 38rem;
     position: absolute;
     right: -300px;
@@ -123,6 +128,36 @@
       &:hover {
         transform: rotate(20deg) scale(1.6);
       }
+    }
+  }
+}
+
+@media (min-width: 200px) and (max-width: 960px) {
+  .menu {
+    padding: 2rem 1rem;
+
+    div.header_texts {
+      margin-top: 4.45rem;
+    }
+
+    div.options {
+      flex-direction: column;
+
+      > div {
+
+        &:hover {
+          filter: brightness(85%);
+          transform: none;
+        }
+      }
+    }
+    
+    img.coffee_singa {
+      display: none;
+    }
+
+    div.coffee_choco {
+      display: none;
     }
   }
 }

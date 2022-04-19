@@ -23,15 +23,15 @@ export function SidebarNav() {
         top="0"
       >
         <Button
-          bg='bg.100'
+          bg='green.600'
           borderWidth={1}
           borderColor="green.600"
           size="lg"
-          color="green.600"
+          color="white"
           onClick={onOpen}
+          transition="0.2s"
           _hover={{
-            bg: 'green.600',
-            color: 'white'
+            filter: 'brightness(85%)'
           }}
         >
           <Icon as={FaIndent} />

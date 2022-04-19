@@ -5,7 +5,7 @@ export function About() {
     <section id="about" className={styles.about}>
       <h2>
         Conforme abrimos nossas lojas, permanecemos no
-        compromisso com a saúde e bem-estar <br /> de nossos partners e consumidores.
+        compromisso com a saúde e bem-estar de nossos partners e consumidores.
       </h2>
 
       <div className={styles.content}>
