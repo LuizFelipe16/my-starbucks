@@ -1,4 +1,4 @@
-![Banner](/public/banner.png)
+![Banner](/public/git/banner.png)
 
 <br/>
 
